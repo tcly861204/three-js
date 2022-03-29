@@ -1,0 +1,37 @@
+{
+  "name": "gulp-static-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "commit": "git add . && git commit -m \"merge\" -n && git push -u origin master"
+  },
+  "author": "tcly861204 <tcly861204@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "cssnext": "^1.8.4",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rev-append": "^0.1.8",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "less": "^3.11.1",
+    "precss": "^4.0.0"
+  },
+  "dependencies": {}
+}
