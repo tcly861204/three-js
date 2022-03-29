@@ -1,22 +1,22 @@
 module.exports = {
   js: {
-    src: 'src/**/*.js',
+    src: ['src/**/*.js', '!./src/assets/**'],
     dest: './dist'
   },
-  asserts: {
-    src: 'src/libs/**/*',
-    dest: './dist/libs'
+  assets: {
+    src: 'src/assets/**/*',
+    dest: './dist/assets'
   },
   css: {
-    src: 'src/**/*.css',
+    src: ['src/**/*.css', '!./src/assets/**'],
     dest: './dist'
   },
   stylus: {
-    src: 'src/**/*.styl',
+    src: ['src/**/*.styl', '!./src/assets/**'],
     dest: './dist'
   },
   less: {
-    src: 'src/**/*.less',
+    src: ['src/**/*.less', '!./src/assets/**'],
     dest: './dist'
   },
   imgs: {

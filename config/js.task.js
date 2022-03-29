@@ -7,7 +7,7 @@ const paths = require('./paths');
 
 module.exports = function jsTask() {
   // @ts-ignore
-  return gulp.src([paths.js.src, '!./src/libs/**'])
+  return gulp.src(paths.js.src)
     .pipe(babel())
     .pipe(uglify())
     .pipe(rename({
